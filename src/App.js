@@ -1,17 +1,16 @@
-import { Component } from 'react';
-import Navbar from './components/Navbar/Navbar';
-import TourList from './components/TourList';
-import './App.scss';
+import React, { Component } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import "./App.scss";
+import TourList from "./components/TourList";
 
-
-class App extends Component{
-  render(){
+class App extends Component {
+  render() {
     return (
-    <main>
-      <Navbar /> 
-      <TourList />      
-    </main>);
-
+      <main>
+        <Navbar />
+        <TourList />
+      </main>
+    );
   }
 }
 
